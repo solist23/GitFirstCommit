@@ -5,6 +5,9 @@ import "fmt"
 func main() {
 
 	var d string
-	d = "Hello"
-	fmt.Print(d)
+	var s rune
+	d = "Hello "
+	s = 23
+	fmt.Prinln(d)
+	fmt.Print(string(d))
 }
